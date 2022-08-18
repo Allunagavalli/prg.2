@@ -1,0 +1,16 @@
+#include<studio.h>
+int main()
+{
+int n,a=0,b=1,c,i,a[10];
+Printf("enter array size");
+Scanf("%d",&n);
+Printf("%d %d ",a,b);
+for(i=1;i<=n;i++)
+{
+C=a+b;
+a=b;
+b=c;
+Printf("%d ",c);
+}
+return 0;
+}
